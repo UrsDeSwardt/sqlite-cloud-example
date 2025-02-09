@@ -24,4 +24,5 @@ uv run main.py
 ```
 
 ## Examples
+
 Checkout the `examples.ipynb` notebook for examples.
