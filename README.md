@@ -16,3 +16,6 @@ API_KEY=your-api-key
 ```bash
 uv run main.py
 ```
+
+## Examples
+Checkout the `examples` notebook for examples.
