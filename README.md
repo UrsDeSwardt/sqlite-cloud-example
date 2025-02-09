@@ -5,7 +5,7 @@ An example of using [SQLite Cloud](https://sqlitecloud.io/) and [SQLModel](https
 - [uv](https://github.com/astral-sh/uv)
 
 ## Setup
-- Create an account on [SQLite Cloud](https://sqlitecloud.io/)
+- Create an account on [SQLite Cloud](https://sqlitecloud.io/) and create a new database.
 - Add the following environment variables to your `.env` file:
 ```
 DATABASE_NAME=your-database-name

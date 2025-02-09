@@ -21,8 +21,3 @@ def create_db_and_tables():
             "Creating tables automatically failed, try running `alembic upgrade head`."
         )
         raise e
-
-
-if __name__ == "__main__":
-    create_db_and_tables()
-    print("Success")

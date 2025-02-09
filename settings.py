@@ -1,4 +1,4 @@
-from pydantic_settings import BaseSettings
+from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
 class SqliteCloudSettings(BaseSettings):
@@ -16,7 +16,7 @@ class ExampleSettings(BaseSettings):
 
 
 class Settings(SqliteCloudSettings, ExampleSettings):
-    pass
+    model_config = SettingsConfigDict(env_file=".env")
 
 
 settings = Settings()
