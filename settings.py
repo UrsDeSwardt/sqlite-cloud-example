@@ -12,7 +12,7 @@ class SqliteCloudSettings(BaseSettings):
 
 
 class ExampleSettings(BaseSettings):
-    TABLE_NAME: str = "sensor_data"
+    EXAMPLE_TABLE_NAME: str = "sensor_data"
 
 
 class Settings(SqliteCloudSettings, ExampleSettings):

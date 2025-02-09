@@ -4,7 +4,7 @@ from settings import settings
 
 
 class SensorData(SQLModel, table=True):
-    __tablename__ = settings.TABLE_NAME
+    __tablename__ = settings.EXAMPLE_TABLE_NAME
 
     id: int | None = Field(default=None, primary_key=True)
     temperature: float

@@ -664,6 +664,7 @@ dependencies = [
     { name = "pydantic-settings" },
     { name = "requests" },
     { name = "sqlalchemy-sqlitecloud" },
+    { name = "sqlitecloud" },
     { name = "sqlmodel" },
 ]
 
@@ -673,6 +674,7 @@ requires-dist = [
     { name = "pydantic-settings", specifier = ">=2.7.1" },
     { name = "requests", specifier = ">=2.32.3" },
     { name = "sqlalchemy-sqlitecloud", specifier = ">=0.1.2" },
+    { name = "sqlitecloud", specifier = ">=0.0.83" },
     { name = "sqlmodel", specifier = ">=0.0.22" },
 ]
 
