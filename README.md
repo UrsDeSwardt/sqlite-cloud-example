@@ -1,4 +1,4 @@
-# sqlitecloud-example
+# SQLite Cloud Example
 
 An example of using [SQLite Cloud](https://sqlitecloud.io/) and [SQLModel](https://sqlmodel.tiangolo.com/) together.
 
